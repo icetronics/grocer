@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.area svg {
+  height: 48px;
+  width: 48px;
+  cursor: grab;
+  filter: grayscale(100%);
+  opacity: 0.7;
+}
+
+.area.dragging svg {
+  cursor: grabbing;
+}
+
+.item {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  z-index: 1000;
+  position: absolute;
+}
+
+.myList {
+  width: 20%;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  background-color: blanchedalmond;
+  border: 2px dashed salmon;
+}
